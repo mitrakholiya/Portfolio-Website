@@ -17,31 +17,31 @@ function App() {
     element: <Home />
   },
   {
-    path:'/Blog',
+    path:'/blog',
     element:<Blog/>
   },
   {
-    path:'/Client',
+    path:'/client',
     element:<Client/>
   },
   {
-    path:'/Books',
+    path:'/books',
     element:<Books/>
   },
   {
-    path:'/Client',
+    path:'/client',
     element:<Books/>
   },
   {
-    path:'/Portfolio',
+    path:'/portfolio',
     element:<Portfolio/>
   },
   {
-    path:'/About',
+    path:'/about',
     element:<About/>
   },
   {
-    path:'/Contact',
+    path:'/contact',
     element:<Contact/>  
   },
   {
