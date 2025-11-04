@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body {
+    font-family: "Cinzel", serif;
+}
+
+.btn1 {
+    padding: 6px 30px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn2 {
+    padding: 6px 30px;
+    border: 1px solid black;
+    color: black;
+    margin-top: 20px;
+}
+
+/* Contact page button */
+.btn4 {
+    padding: 6px 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+@media (max-width:640px) {
+    .btn4 {
+        padding: 6px 30px;
+        width: 100%;
+        border: 1px solid black;
+    }
+}
+
+
+.overlay2 {
+    background: linear-gradient(to right, rgba(39, 58, 78, 0.4), rgba(39, 58, 78, 0.4));
+}
