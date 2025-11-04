@@ -4,16 +4,15 @@ import Books from "./Pages/Books"
 import Client from "./Pages/Client"
 import Home from "./Pages/Home"
 import Blog from "./Pages/Blog"
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createHashRouter, RouterProvider } from "react-router-dom"
 import Portfolio from "./Pages/Portfolio"
 import Contact from "./Pages/Contact"
 import SubPortfolio from "./Pages/portsub/SubPortfolio"
-import SubFood from "./Pages/portsub/SubFood"
-import SubBaked from "./Pages/portsub/SubBaked"
+
 
 function App() {
 
-  let r2 = createBrowserRouter([{
+  let r2 = createHashRouter([{
     path: '/',
     element: <Home />
   },
